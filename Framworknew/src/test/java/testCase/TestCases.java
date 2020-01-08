@@ -25,6 +25,7 @@ public class TestCases {
 	@Test
 	public void Login() {
 		login = new LoginPage(driver);
+		//login.loginPage();
 		login.loginPage();
 	}
 	
